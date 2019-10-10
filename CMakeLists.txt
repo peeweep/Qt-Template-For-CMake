@@ -21,8 +21,8 @@ add_executable(Qt-Template-For-CMake
   mywidget.h
   mywidget.ui
   ## When we set CMAKE_AUTORCC ON, we can write qrc directly
-  ## in add_executabl
-  # resource.qrc
+  ## in add_executable
+  res.qrc
 )
 
 target_link_libraries(Qt-Template-For-CMake PRIVATE Qt5::Widgets)
