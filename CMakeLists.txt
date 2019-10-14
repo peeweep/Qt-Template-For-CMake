@@ -17,9 +17,9 @@ find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
 add_executable(Qt-Template-For-CMake
   main.cpp
-  mywidget.cpp
-  mywidget.h
-  mywidget.ui
+  src/mywidget.cpp
+  src/mywidget.h
+  src/mywidget.ui
   ## When we set CMAKE_AUTORCC ON, we can write qrc directly
   ## in add_executable
   res.qrc
